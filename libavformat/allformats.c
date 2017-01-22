@@ -259,6 +259,7 @@ void av_register_all(void)
     REGISTER_DEMUXER (QCP,              qcp);
     REGISTER_DEMUXER (R3D,              r3d);
     REGISTER_MUXDEMUX(RAWVIDEO,         rawvideo);
+    REGISTER_DEMUXER (RAWMUX,           rawmux);
     REGISTER_DEMUXER (REALTEXT,         realtext);
     REGISTER_DEMUXER (REDSPARK,         redspark);
     REGISTER_DEMUXER (RL2,              rl2);
